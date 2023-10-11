@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+background-image: url("bg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    right: 90px;
+    
+}
+nav ul li{
+    list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px;
+}
+.logo{
+    color: rgb(255, 208, 0);
+    font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin: 0 60px;
+  position: relative;
+  top: 26px;
+  
+ 
+
+}
+#search{
+   position: relative;
+   left: 55px;
+   background-color: transparent;
+   border: 2px solid rgb(255, 208, 0);
+   padding: 3.5px;
+   border-radius: 4px;
+}
+#web{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 8px 0;
+}
+#dev{
+    color: rgb(255, 208, 0) ;
+    font-size: 3rem;
+    font-weight: bold;
+}
+#course{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 8px 0;
+}
+.content{
+   position: relative;
+   top: 115px;
+   margin: 0 35px;
+}
+#lol{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  
+}
+#bruh{
+    color: white;
+   
+}
+
+#e{
+    color: white;
+    margin: 8px 0;
+   
+}
+#btn{
+    background-color:  rgb(255, 208, 0);
+    padding: 6px 25px;
+    border: 1px solid  rgb(255, 208, 0);
+    border-radius: 5px;
+    margin: 8px 0;
+}
